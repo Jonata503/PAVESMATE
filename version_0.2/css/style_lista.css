@@ -1,0 +1,114 @@
+*{
+    font-family: Times New Roman, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFFFA;
+}
+header{
+    display: flex;
+    background-color: #0071CA;
+    width: 100%;
+}
+header nav{
+    width: 80%;
+    max-width: 1000px;
+    margin: 5px auto;
+}
+.nav{
+    text-shadow: 1px 1px 0 #000;
+}
+.menu-bar{
+    display: none;
+}
+header nav ul{
+    overflow: hidden;
+    list-style: none;
+}
+header nav ul li{
+    float: left;
+    margin-right: 55px;
+}
+header nav ul li a{
+    font-size: 20px;
+    color: #FFF;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+header nav ul li span{
+    margin: 10px;
+}
+header nav ul li a:hover{
+    background-color: #0084ec;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 12px;
+}
+.bar-titulo{
+    display: flex;
+    background-color: #C7C7C7;
+    border-radius: 12px;
+    width: 90%;
+    padding: 10px;
+}
+.ptil{
+    margin-right: 30px;
+    text-align: left;
+    color: #000;
+    text-shadow: 1px 1px 0 #FFF;
+    font-size: 30px;
+}
+.btn-ver{
+    cursor: pointer;
+    background-color: #FFF;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 2px solid #0071CA;
+}
+select{
+    margin-right: 15px;
+}
+select, option{
+    width: 10%;
+    color: #000;
+    text-shadow: 1px 1px 0 #FFF;
+    font-size: 18px;
+}
+.link-agregar{
+    color: #000;
+    text-shadow: 1px 1px 0 #FFF;
+    text-decoration: none;
+    font-size: 30px;
+}
+.link-agregar:hover{
+    color: #0071CA;
+}
+.link-agregar span{
+    margin-right: 10px;
+}
+.text{
+    margin-right: 50px;
+    font-size: 28px;
+    color: #000;
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+.link:hover{
+    font-size: 21px;
+    color: #0071CA;
+}
+table{
+    border:2px solid #2DCC70;
+    margin: 20px;
+    width: 95%;
+    padding: 5px;
+}

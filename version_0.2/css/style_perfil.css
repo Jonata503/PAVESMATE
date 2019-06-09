@@ -1,0 +1,104 @@
+*{
+    font-family: Times New Roman, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFFFA;
+}
+header{
+    display: flex;
+    background-color: #0071CA;
+    width: 100%;
+}
+header nav{
+    width: 80%;
+    max-width: 1000px;
+    margin: 5px auto;
+}
+.nav{
+    text-shadow: 1px 1px 0 #000;
+}
+.menu-bar{
+    display: none;
+}
+header nav ul{
+    overflow: hidden;
+    list-style: none;
+}
+header nav ul li{
+    float: left;
+    margin-right: 55px;
+}
+header nav ul li a{
+    font-size: 20px;
+    color: #FFF;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+header nav ul li span{
+    margin: 10px;
+}
+header nav ul li a:hover{
+    background-color: #0084ec;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 12px;
+}
+form{
+    border-radius: 12px;
+    width: 55%;
+    margin: 20px;
+    display: block;
+    height: auto;
+    background-color: #EBF0F1;
+}
+.titulo{
+    border-radius: 12px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #2DCC70;
+}
+.titulo .lbtitulo{
+    margin: 15px;
+    font-size: 24px;
+    text-shadow: 1px 1px 0 #000;
+    color: #FFF;
+}
+.titulo .link{
+    margin: 15px;
+    text-decoration: none;
+    font-size: 24px;
+    text-shadow: 1px 1px 0 #000;
+    color: #FFF;
+}
+span{
+    margin-right: 10px;
+}
+.titulo .link:hover{
+    background-color: #2edf79;
+}
+.body{
+    display: flex;
+    width: 90%;
+}
+.div-img{
+    margin-right: 50px;
+}
+.photo{
+    margin: 3px;
+    border:  2px solid #000;
+    width: 135px;
+    height: 160px;
+}
+.lb{
+    margin: 1px;
+    font-size: 20px;
+    text-align: left;
+}
+table{
+    padding: 5px;
+    width: 60%;
+}

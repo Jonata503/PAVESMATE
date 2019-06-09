@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0">
+        <meta charset="utf-8">
+        <title>Modificar cuenta estudiante...</title>
+        <link type="text/css" rel="stylesheet" href="css/style_upEstudiante.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <script src="main/validaciones.js">
+        </script>
+    </head>
+    <body>
+        <header>
+            <a class="txtAtras" href="listaEstudiantes.php"><span><i class="fas fa-arrow-alt-circle-left"></i></span></a>
+            <p class="txtTitulo">Modificar Cuenta Estudiante</p>
+        </header>
+        <center>
+            <div class="padre">
+                <div class="bar-h1">
+                <p>Datos de usuario</p>
+                </div>
+                <div class="caja-user">
+                    <p class="parafo">Usuario:</p>
+                    <input id="txtUsuario" class="txt" type="text" name="usuario" autocomplete="off" >
+                    <p class="parafo">Contraseña:</p>
+                    <input id="txtClave" class="txt" type="password" name="contraseña">
+                </div>
+                <div class="bar-h1">
+                <p>Datos del estudiante</p>
+                </div>
+                <div class="caja-alumno">
+                    <p class="parafo">Nombre:</p>
+                    <input id="txtNombre" name="nombre" onblur="revisar(this)" onkeyup="revisar(this)" class="txt" type="text" name="nombre">
+                    <p class="parafo">Apellido:</p>
+                    <input id="txtApellido" class="txt" type="text" name="apellido">
+                </div>
+                <div class="sub-alumno">
+                    <p class="parafo">Genero:</p>
+                    <select name="opcion">
+                        <option value="0">Elija</option>
+                        <option value="1">Femenino</option>
+                        <option value="2">Masculino</option>
+                    </select>
+                    <p class="parafo">Tipo de sangre:</p>
+                    <input id="txtSangre" class="txt" type="text" name="sangre">
+                </div>
+                <div class="bar-h1">
+                <p>Datos conplementarios del estudiante</p>
+                </div>
+                <div class="caja-detalle">
+                    <p class="parafo">Encargado:</p><input id="txtEncargado" name="encargado" onblur="revisar(this)" onkeyup="revisar(this)" class="txt" type="text" name="nombre">
+                    <p class="parafo">Parentesco:</p>
+                    <input id="txtParentesco" name="aparentesco" onblur="revisar(this)" onkeyup="revisar(this)" class="txt" type="text" name="nombre">
+                </div>
+                <div class="detalle">
+                    <p class="parafo">Nombre de la madre:</p>
+                    <input id="txtMadre" name="mabre" onblur="revisar(this)" onkeyup="revisar(this)" class="txt" type="text" name="nombre">
+                    <p class="parafo">Nombre del padre:</p>
+                    <input id="txtPadre" name="padre" onblur="revisar(this)" onkeyup="revisar(this)" class="txt" type="text" name="nombre">
+                </div>
+                <div class="sub-detalle">
+                    <p class="parafo">Telefono:</p>
+                    <input id="txtTelefono" name="telefono" onblur="revisar(this)" onkeyup="revisar(this)" class="txt" type="text" name="nombre">
+                    <p class="parafo">Direccion:</p>
+                    <input id="txtDireccion" name="nombre" onblur="revisar(this)" onkeyup="revisar(this)" class="txtDireccion" type="text" name="direccion">
+                </div>
+                <div class="div-creae">
+                    <input class="btn" name="agregar" type="submit" value="Modificar Estudiante">
+                </div>
+            </div>
+        </center>
+    </body>
+</html>
